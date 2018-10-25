@@ -78,6 +78,42 @@ namespace RPSLS_Game
                         scoreCPU++;
                     }
                     break;
+                case 4:
+                    inputCPU = "LIZARD";
+                    Console.WriteLine("Computer chose LIZARD");
+                    if (inputPlayer == "LIZARD")
+                    {
+                        Console.WriteLine("DRAW!!\n\n");
+                    }
+                    else if (inputPlayer == "ROCK")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "SPOCK")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
+                    }
+                    break;
+                case 5:
+                    inputCPU = "SPOCK";
+                    Console.WriteLine("Computer chose SPOCK");
+                    if (inputPlayer == "SPOCK")
+                    {
+                        Console.WriteLine("DRAW!!\n\n");
+                    }
+                    else if (inputPlayer == "LIZARD")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "ROCK")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
+                    }
+                    break;
                 default:
                     Console.WriteLine("Invalid entry!");
                     break;
