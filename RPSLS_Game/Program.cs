@@ -41,6 +41,16 @@ namespace RPSLS_Game
                         Console.WriteLine("CPU WINS!!\n\n");
                         scoreCPU++;
                     }
+                    else if (inputPlayer == "SPOCK")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "LIZARD")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
+                    }
                     break;
                 case 2:
                     inputCPU = "PAPER";
@@ -58,6 +68,16 @@ namespace RPSLS_Game
                     {
                         Console.WriteLine("PLAYER WINS!!\n\n");
                         scorePlayer++;
+                    }
+                    else if (inputPlayer == "LIZARD")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "SPOCK")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
                     }
                     break;
                 case 3:
@@ -77,6 +97,16 @@ namespace RPSLS_Game
                         Console.WriteLine("CPU WINS!!\n\n");
                         scoreCPU++;
                     }
+                    else if (inputPlayer == "LIZARD")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
+                    }
+                    else if (inputPlayer == "SPOCK")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
                     break;
                 case 4:
                     inputCPU = "LIZARD";
@@ -88,6 +118,16 @@ namespace RPSLS_Game
                     else if (inputPlayer == "ROCK")
                     {
                         Console.WriteLine("PLAYER WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "PAPER")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scoreCPU++;
+                    }
+                    else if (inputPlayer == "SCISSORS")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
                         scorePlayer++;
                     }
                     else if (inputPlayer == "SPOCK")
@@ -103,15 +143,25 @@ namespace RPSLS_Game
                     {
                         Console.WriteLine("DRAW!!\n\n");
                     }
+                    else if (inputPlayer == "ROCK")
+                    {
+                        Console.WriteLine("PLAYER WINS!!\n\n");
+                        scoreCPU++;
+                    }
+                    else if (inputPlayer == "PAPER")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scorePlayer++;
+                    }
+                    else if (inputPlayer == "SCISSORS")
+                    {
+                        Console.WriteLine("CPU WINS!!\n\n");
+                        scoreCPU++;
+                    }
                     else if (inputPlayer == "LIZARD")
                     {
                         Console.WriteLine("PLAYER WINS!!\n\n");
                         scorePlayer++;
-                    }
-                    else if (inputPlayer == "ROCK")
-                    {
-                        Console.WriteLine("CPU WINS!!\n\n");
-                        scoreCPU++;
                     }
                     break;
                 default:
